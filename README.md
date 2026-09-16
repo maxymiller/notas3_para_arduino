@@ -1,12 +1,15 @@
 # notas3_para_arduino
-pega notas3 do "wav_para_hz" crior, e enviar para Arduino
+
+Pega as notas3 criadas pelo `wav_para_hz` e envia para o Arduino.
+
+Com ajuda do ChatGPT para aprender e desenvolver o código.
 
 ---
 
-## 🌐 tinkercad
+## 🌐 Tinkercad
 
-código do Arduino
+Código e circuito do Arduino:
 
-👉 **[Abrir o Link do tinkercad](https://www.tinkercad.com/things/8KXw74EyEOt-notas3paraarduino)**
+👉 **[Abrir o projeto no Tinkercad](https://www.tinkercad.com/things/8KXw74EyEOt-notas3paraarduino)**
 
 ---
