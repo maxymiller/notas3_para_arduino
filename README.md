@@ -1,4 +1,4 @@
-# notas3_para_arduino
+# notas3_para_arduino [BETA]
 
 Pega as notas3 criadas pelo `wav_para_hz` e envia para o Arduino.
 
