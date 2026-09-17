@@ -146,8 +146,10 @@ Exemplo:
 |---|---|
 | `nome` | Nome do programa/música |
 | `tempo_bloco` | Duração de cada bloco em segundos |
-| `top_n` | Quantidade de frequências consideradas pelo processamento |
-| `awk_hz_max` | Frequência máxima utilizada pelo processamento |
+| `top_n` | Informação do processamento realizado pelo `wav_para_hz` |
+| `awk_hz_max` | Informação do processamento realizado pelo `wav_para_hz` |
+
+> `top_n` e `awk_hz_max` são mantidos apenas como informações sobre como o `wav_para_hz` criou as notas3. O Arduino não utiliza esses valores para executar as notas.
 
 ---
 
