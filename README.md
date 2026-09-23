@@ -8,7 +8,7 @@ Com ajuda do ChatGPT para aprender e desenvolver o código.
 
 ---
 
-#Executa
+# Executa
 
 ## 1. Conectar ao Arduino
 
