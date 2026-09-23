@@ -8,6 +8,53 @@ Com ajuda do ChatGPT para aprender e desenvolver o código.
 
 ---
 
+#Executa
+
+## 1. Conectar ao Arduino
+
+Execute:
+
+```bash
+./arduino_input.sh <arduino>
+```
+
+Onde `<arduino>` é a porta serial do Arduino.
+
+Exemplo:
+
+```bash
+./arduino_input.sh /dev/ttyACM0
+```
+
+O programa utiliza o `picocom` para comunicação com o Arduino.
+
+Para sair do `picocom`:
+
+```text
+Ctrl+A
+Ctrl+X
+```
+
+---
+
+## 2. Enviar um arquivo de notas3
+
+Execute:
+
+```bash
+./run.sh <notas3>
+```
+
+Exemplo:
+
+```bash
+./run.sh musica-notas3.txt
+```
+
+O `run.sh` inicia a comunicação e utiliza o `main.sh` para enviar o arquivo de notas ao Arduino.
+
+---
+
 ## 🌐 Tinkercad
 
 Código e circuito do Arduino:
