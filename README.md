@@ -12,23 +12,23 @@ Com ajuda do ChatGPT para aprender e desenvolver o código.
 
 ## LCD
 
-| LCD |   ESP32 |
-| --- | ------: |
-| RS  | GPIO 13 |
-| E   | GPIO 12 |
-| D4  | GPIO 14 |
-| D5  | GPIO 27 |
-| D6  | GPIO 26 |
-| D7  | GPIO 25 |
+| LCD |   ESP32 | ARDUINO |
+| --- | ------: | ------: |
+| RS  | GPIO 13 | GPIO 7  |
+| E   | GPIO 12 | GPIO 8  |
+| D4  | GPIO 14 | GPIO 9  |
+| D5  | GPIO 27 | GPIO 10 |
+| D6  | GPIO 26 | GPIO 11 |
+| D7  | GPIO 25 | GPIO 12 |
 
 ---
 
 ## SPEAKER
 
-| SPEAKER    |   ESP32 |
-| ------------- | ------: |
-| Speaker/Piezo | GPIO 23 |
-| GND           |     GND |
+| SPEAKER       | ESP32   | ARDUINO |
+| ------------- | ------: | ------: |
+| Speaker/Piezo | GPIO 23 | GPIO 3  |
+| GND           | GND     | GND     |
 
 
 ---
