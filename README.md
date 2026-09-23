@@ -8,6 +8,31 @@ Com ajuda do ChatGPT para aprender e desenvolver o código.
 
 ---
 
+# Pino
+
+## LCD
+
+| LCD |   ESP32 |
+| --- | ------: |
+| RS  | GPIO 13 |
+| E   | GPIO 12 |
+| D4  | GPIO 14 |
+| D5  | GPIO 27 |
+| D6  | GPIO 26 |
+| D7  | GPIO 25 |
+
+---
+
+## SPEAKER
+
+| SPEAKER    |   ESP32 |
+| ------------- | ------: |
+| Speaker/Piezo | GPIO 23 |
+| GND           |     GND |
+
+
+---
+
 # Executa
 
 ## 1. Conectar ao Arduino
