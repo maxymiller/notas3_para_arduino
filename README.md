@@ -8,7 +8,7 @@ Com ajuda do ChatGPT para aprender e desenvolver o código.
 
 ---
 
-# Pino
+# Pinos
 
 ## LCD
 
@@ -274,14 +274,19 @@ O código possui algumas partes principais:
 
 # Hardware
 
-O projeto foi testado com um circuito de Arduino no Tinkercad utilizando:
+O projeto possui duas configurações de pinos:
 
-- Arduino;
+- **Arduino** — configuração original;
+- **ESP32** — configuração utilizada no desenvolvimento atual.
+
+O circuito utiliza:
+
 - LCD 16x2;
 - speaker/piezo;
-- conexões digitais para o LCD.
+- conexões digitais para o LCD;
+- comunicação serial via USB.
 
-O código utiliza a biblioteca `LiquidCrystal`.
+O LCD é controlado pela biblioteca `LiquidCrystal`.
 
 ---
 
