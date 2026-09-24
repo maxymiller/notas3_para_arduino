@@ -27,7 +27,7 @@ Com ajuda do ChatGPT para aprender e desenvolver o código.
 
 | SPEAKER       | ESP32   | ARDUINO |
 | ------------- | ------: | ------: |
-| Speaker/Piezo | GPIO 23 | GPIO 3  |
+| Speaker/Piezo | GPIO 18 | GPIO 3  |
 | GND           | GND     | GND     |
 
 
