@@ -195,8 +195,19 @@ Nesse caso, `710 Hz` será reproduzido durante aproximadamente **50 ms**.
 ## SETWIFI
 
 ```text
-SETWIFI
+SETWIFI <SSID>
 ```
+
+Cofigura o SSID da rede Wi-Fi.
+
+
+**Observação:** no código que você enviou, `SETWIFI` realmente espera o SSID na mesma linha, por causa de:
+
+```cpp
+comando.indexOf("SETWIFI ") == 0
+```
+
+Então `SETWIFI` sozinho não corresponde ao comando implementado; o formato correto é `SETWIFI <SSID>`.
 
 ---
 
@@ -206,12 +217,23 @@ SETWIFI
 CONEWIFI
 ```
 
+Conecta o ESP32 à rede Wi-Fi configurada.
+
 ---
 
 ## INFOWIFI
 
 ```text
 INFOWIFI
+```
+
+Mostra o estado da conesão Wi-Fi e o endereço IP do ESP32.
+
+Exemplo:
+
+```text
+wifi: tá conectado
+IP: 192.168.15.XX
 ```
 
 ---
@@ -221,6 +243,8 @@ INFOWIFI
 ```text
 REMOVEWIFI
 ```
+
+Remove as credenciais Wi-Fi salvas e desconecta o ESP32 da rede.
 
 ---
 
