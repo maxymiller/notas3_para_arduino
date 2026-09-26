@@ -226,6 +226,11 @@ Exemplo:
 wifi: tá conectado
 IP: 192.168.15.XX
 ```
+você pode acessar com:
+
+```text
+http://192.168.15.XX
+```
 
 ---
 
