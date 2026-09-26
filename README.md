@@ -192,6 +192,38 @@ Nesse caso, `710 Hz` será reproduzido durante aproximadamente **50 ms**.
 
 ---
 
+## SETWIFI
+
+```text
+SETWIFI
+```
+
+---
+
+## CONEWIFI
+
+```text
+CONEWIFI
+```
+
+---
+
+## INFOWIFI
+
+```text
+INFOWIFI
+```
+
+---
+
+## REMOVEWIFI
+
+```text
+REMOVEWIFI
+```
+
+---
+
 # Formato do arquivo de notas3
 
 O programa recebe arquivos contendo metadados e notas.
