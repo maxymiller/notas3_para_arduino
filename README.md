@@ -210,6 +210,8 @@ CONEWIFI
 
 Conecta o ESP32 à rede Wi-Fi configurada.
 
+- memoriza na memória com `Preferences memoria;` se conectar com sucesso
+
 ---
 
 ## INFOWIFI
@@ -241,6 +243,8 @@ REMOVEWIFI
 ```
 
 Remove as credenciais Wi-Fi salvas e desconecta o ESP32 da rede.
+
+- remove na memória `Preferences memoria;`
 
 ---
 
