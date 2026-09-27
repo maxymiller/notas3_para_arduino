@@ -210,7 +210,7 @@ CONEWIFI
 
 Conecta o ESP32 à rede Wi-Fi configurada.
 
-- memoriza na memória com `Preferences memoria;` se conectar com sucesso
+- memoriza na memória com `Preferences memoria;`, se conectar com sucesso
 - reinicia o arduino para `WebServer` iniciar, se conectar wi-fi com sucesso
 
 ---
