@@ -200,6 +200,8 @@ SETWIFI <SSID>
 
 Cofigura o SSID da rede Wi-Fi.
 
+- para colocar senha sem valor coloca `.`
+
 ---
 
 ## CONEWIFI
