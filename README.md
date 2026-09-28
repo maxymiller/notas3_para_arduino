@@ -195,12 +195,49 @@ Nesse caso, `710 Hz` será reproduzido durante aproximadamente **50 ms**.
 ## SETWIFI
 
 ```text
-SETWIFI <SSID>
+SETWIFI <SSID ID>
 ```
 
 Cofigura o SSID da rede Wi-Fi.
 
-- para colocar senha sem valor coloca `.`
+Para ver o `SSID ID`, use:
+
+```text
+LISTWIFI
+```
+
+- `<SSID ID>` corresponde ao número da rede na lista.
+
+- Para configurar uma rede sem senha, digite `.` quando for solicitada a senha.
+
+---
+
+## LISTWIFI
+
+```text
+LISTWIFI
+```
+
+Lista as redes Wi-Fi encontradas e mostra:
+
+- `ID`
+- `SSID`
+- `RSSI`
+- `Canal`
+
+Exemplo:
+
+```text
+0: MinhaRede
+   RSSI: -45 dBm
+   Canal: 6
+
+1: OutraRede
+   RSSI: -67 dBm
+   Canal: 11
+```
+
+O `ID` pode ser usado no comando `SETWIFI`.
 
 ---
 
@@ -212,8 +249,14 @@ CONEWIFI
 
 Conecta o ESP32 à rede Wi-Fi configurada.
 
-- memoriza na memória com `Preferences memoria;`, se conectar com sucesso
+- as credenciais são salvas na memória usando `Preferences memoria;`;
 - reinicia o arduino para `WebServer` iniciar, se conectar wi-fi com sucesso
+
+Exemplo de retorno:
+
+```text
+READY WIFI
+```
 
 ---
 
@@ -223,15 +266,16 @@ Conecta o ESP32 à rede Wi-Fi configurada.
 INFOWIFI
 ```
 
-Mostra o estado da conesão Wi-Fi e o endereço IP do ESP32.
+Mostra o estado da conexão Wi-Fi, o endereço IP e o RSSI.
 
 Exemplo:
 
 ```text
 wifi: tá conectado
 IP: 192.168.15.XX
+RSSI: -45 dBm
 ```
-você pode acessar com:
+O endereço IP pode ser usado para acessar o `WebServer`:
 
 ```text
 http://192.168.15.XX
@@ -247,7 +291,11 @@ REMOVEWIFI
 
 Remove as credenciais Wi-Fi salvas e desconecta o ESP32 da rede.
 
-- remove na memória `Preferences memoria;`
+- Remove o `SSID` salvo.
+- Remove a senha salva.
+- Desconecta o ESP32 da rede Wi-Fi.
+
+As credenciais são armazenadas usando `Preferences memoria;`.
 
 ---
 
