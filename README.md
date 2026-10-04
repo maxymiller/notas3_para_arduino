@@ -23,6 +23,17 @@ Com ajuda do ChatGPT para aprender e desenvolver o código.
 
 ---
 
+## SSD1306_oled
+
+| SSD1306_oled | ESP32   | ARDUINO |
+| ------------ | ------: | ------: |
+| GND          | GND     | n/a     |
+| VCC          | 3v3     | n/a     |
+| SCL          | GPIO 33 | n/a     |
+| SDA          | GPIO 32 | n/a     |
+
+---
+
 ## SPEAKER
 
 | SPEAKER       | ESP32   | ARDUINO |
