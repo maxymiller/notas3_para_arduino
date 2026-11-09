@@ -310,6 +310,28 @@ As credenciais são armazenadas usando `Preferences memoria;`.
 
 ---
 
+## disk
+
+## SAVE
+
+```text
+SAVE <nome>
+```
+
+## LOAD
+
+```text
+LOAD <nome>
+```
+
+## SAVELIST
+
+```text
+SAVELIST
+```
+
+---
+
 # Formato do arquivo de notas3
 
 O programa recebe arquivos contendo metadados e notas.
