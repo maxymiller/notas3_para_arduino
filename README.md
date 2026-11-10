@@ -328,7 +328,7 @@ Salva na memória do ESP32
 LOAD <nome>
 ```
 
-Carrega o que tá ne memória do ESP32
+Carrega o que tá na memória do ESP32
 
 ---
 
