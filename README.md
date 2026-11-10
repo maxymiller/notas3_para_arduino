@@ -318,17 +318,37 @@ As credenciais são armazenadas usando `Preferences memoria;`.
 SAVE <nome>
 ```
 
+Salva na memória do ESP32
+
+---
+
 ## LOAD
 
 ```text
 LOAD <nome>
 ```
 
+Carrega o que tá ne memória do ESP32
+
+---
+
 ## SAVELIST
 
 ```text
 SAVELIST
 ```
+
+Ver todos tá na memória do ESP32
+
+---
+
+## REMOVE
+
+```text
+REMOVE <nome>
+```
+
+Remove o que tá na memória do ESP32
 
 ---
 
